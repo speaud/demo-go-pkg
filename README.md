@@ -13,3 +13,7 @@ Build binary
 Install binary
 
 `go install`
+
+Run in containerized environemnt
+
+`docker-compose up --build`
