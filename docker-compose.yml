@@ -3,6 +3,6 @@ services:
   api:
     build: ./
     ports:
-      - "${HOST_API_PORT}:${CONTAINER_API_PORT}"
+      - "${HOST_SERVICE_PORT}:${CONTAINER_SERVICE_PORT}"
     volumes:
       - ./:/service
