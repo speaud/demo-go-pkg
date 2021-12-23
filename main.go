@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func helloworld(b string) string {
 
@@ -16,7 +18,7 @@ func main() {
 docker run --rm golang:1.5
 docker run -it --rm golang
 
-docker run --rm golang sh -c "go get https://github.com/speaud/demo-go-pkg && exec demo-go-pkg"
+docker run --rm golang sh -c "go get github.com/speaud/demo-go-pkg && exec demo-go-pkg"
 
 go get <path-to-repo>@<branch>
 
