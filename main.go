@@ -2,11 +2,14 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/speaud/demo-go-pkg/foobar"
 )
 
 func helloworld(b string) string {
+	a := foobar.Method("asd")
 
-	return "Hello World!!" + b
+	return "Hello World!!" + b + a
 }
 
 func main() {

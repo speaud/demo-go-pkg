@@ -1,6 +1,6 @@
 package foobar
 
-func d(b string) string {
+func Method(b string) string {
 
-	return "Hello World!!" + b
+	return "foobar: " + b
 }
